@@ -3,7 +3,7 @@ new_hash = {}
 end
 
 def my_hash
-  my_hash = { :farm animals => , cows
+  my_hash = { :dogs => , 2 }
 end
 
 def pioneer
