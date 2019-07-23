@@ -19,7 +19,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-read_from_hash = { "dogs"=>{:animals}}
+read_from_hash = { "dogs=>{:"animals"}}
 end
 
 def update_counting_hash(hash, key)
