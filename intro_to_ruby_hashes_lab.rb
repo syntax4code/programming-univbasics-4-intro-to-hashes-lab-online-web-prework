@@ -23,11 +23,9 @@ read_from_hash = { "dogs=>{:"animals"}}
 end
 
 def update_counting_hash(hash, key)
-person = {
-  name: "Sam",
-  age: 31
-}
-
+person = {name: "Sam", age: 31}
+person[:age]
+person[:age] = 32
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
